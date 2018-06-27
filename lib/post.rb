@@ -8,7 +8,8 @@ class Post
   end 
   
   def author_name 
-    if self.author  
+    if self.author 
+      binding.pry 
       self.author.name 
     else 
       nil 
